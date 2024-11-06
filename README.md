@@ -1,2 +1,10 @@
-# Nonlinear-fitting-in-physical-chemistry-acs-ebook
+# Nonlinear fitting in Physical Chemistry - ACS eBook
 Materials created in relation to the ACS eBook to be published Spring 2025. 
+
+The materials provided herein are intended to provide working examples for Physical Chemistry instructors interested in utilizing nonlinear fitting for their courses. Nonlinear fitting is greatly facilitated in modern programming languages, such as Python or Mathematica, and can be utilized to directly estimate uncertainties of physical observables measured in different experiments. Here we provide examples in both Python and Mathematica for how to perform nonlinear fitting in three overarching experiments: Kinetics of the Iodination of Acetone, Thermodynamic Properties of a DNA Duplex, and Rovibrational Spectroscopy of a Diatomic Molecule. 
+
+For the Kinetics experiment, absorbance as a function of time is measured on a spectrometer, and then the abs vs time data is fit to a line in order to extrat the rates of the reaction. After the rates have been determined at different temperatures, a nonliner fit of the Arrhenius equation is utilized to extract the activation energy and pre-exponential factor for comparison with literature reference values. 
+
+For the DNA experiment, nonlinear fitting is needed in order to determine the melting temperature of different concentrations of DNA solution. After fitting the absorbance vs temperature data to determine the melting points and uncertainties of each DNA solution, a nonlinear fit of a modified van't Hoff equation is needed to determine the enthalpy and entropy of DNA formation and their uncertainties.
+
+For the rovibrational experiment, nonlinear fitting is needed in order to extract the fundamental vibrational frequency and rotational constants. Since centrifugal distortion is generally a small contribution to the transition energy, this term is not included in the fit. Excluding centrifugal distortion leads to a quadratic polynomial in the quantum numbers and can be directly fit using nonlinear methods. The CO molecule is used for our example, which can have both fundamental and overtone transitions, all of which can be fit using the same nonlinear functional form. 
