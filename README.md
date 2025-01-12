@@ -1,5 +1,4 @@
 # Utilizing computational software to streamline data analysis and reinforce chemical concepts - ACS eBook
-JEBates & BLWoods
 Materials created in relation to the ACS eBook to be published Spring 2025. 
 
 The materials provided herein are intended to provide working examples for Physical Chemistry instructors interested in utilizing nonlinear fitting for their courses. Nonlinear fitting is greatly facilitated in modern programming languages, such as Python or Mathematica, and can be utilized to directly estimate uncertainties of physical observables measured in different experiments. Here we provide examples in both Python and Mathematica for how to perform nonlinear fitting in three overarching experiments: Kinetics of the Iodination of Acetone, Thermodynamic Properties of a DNA Duplex, and Rovibrational Spectroscopy of a Diatomic Molecule. 
